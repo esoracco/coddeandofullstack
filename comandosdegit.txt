@@ -35,3 +35,17 @@ git status
 
 2. Iniciar el seguimiento del proyecto. Solo una vez 
 git init
+
+3. Agregar los archivos para el seguimiento con
+git add nombredearchivo
+git add nombre de carpeta/
+GIT ADD . 
+
+4. CONFIRMO LOS CAMBIOS CON un mensaje relacionado al proyectogit commit -m "Mensaje importante para recordar"
+
+5. Creamos el repo remoto en GitHub en nuestro perfil
+
+6. Copiamos la direccion del repositorio remoto y se lo pegmos por la consola a Git local 
+ git remote add origin https://github.com/esoracco/coddeandofullstack.git
+
+7. enviamos el codigo al repo remoto congit push origins master
