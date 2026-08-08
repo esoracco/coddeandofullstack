@@ -1,0 +1,94 @@
+
+ <!-- Alt + shift + A= cometarios -->
+ <!-- Tipo de documento -->
+<!DOCTYPE html>
+<!-- elemento raiz de un documento HTML-->
+
+<html lang="en">
+    <!-- cabezera del documento -->
+    <!-- contiene los metadatos del documento -->
+       
+<head>
+  <!-- configuraciones de codificacion del documento -->
+    <meta charset="UTF-8">
+    <!-- configurcion de la vista para dispositivos moviles: responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    /*tercera forma de agrgar css: en un archivo externo de estilos css*/
+    <link rel="stylesheet" href="./index.css">
+    <!-- titulo del documento: se ve en la pestaña del navegador -->
+    <title>Document</title>
+    <!-- cabezera doumento -->
+
+     <style>
+/*segunda forma de agregr estilos css: dentro de la etiqueta style*/
+        p{
+            /*propiedad y valores de las propiedades */
+            /*familia de tipografia: verdana , geneva, tahoma*/
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+     </style>
+</head>
+<!-- cuerpo del documento -->
+<body>
+
+    <!-- encabezado -->
+     <header>
+        <nav>
+            <!-- lista desordenada -->
+             <ul>
+                <!-- elementos de la lista -->
+               
+                    <li>
+                        <!-- elemento ancla con el atributo href -->
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="./sucursales.html">Sucursales</a>
+                    </li>
+                </ul>
+               
+        </nav>
+     </header>
+     <!-- contenido principal del documento -->
+      <main> 
+      <!-- linea horizontal -->
+     <hr>
+      
+       <figure>
+         <!-- imagen local-->
+            <img src="./paisaje-profundidad-lineas-734x489.jpg" alt="Paisaje">
+            <!-- leyenda de la imagen -->
+            <figcaption>Figura 1: Paisaje con profundidad y líneas</figcaption>
+        </figure>
+     <!-- imagen remota: no esta en proyecto ni en servidor-->
+      <p>Imagen remota:
+        Parrafo y no se que va a ca pero estoy texteando para llenar el espacio y que se vea como un parrafo real, aunque no tenga sentido lo que estoy escribiendo, solo es para ocupar espacio y mostrar como se ve un parrafo con una imagen remota al lado.
+      </p>
+      <p>
+        Parrafo y no se que va a ca pero estoy texteando para llenar el espacio y que se vea como un parrafo real, aunque no tenga sentido lo que estoy escribiendo, solo es para ocupar espacio y mostrar como se ve un parrafo con una imagen remota al lado.
+      </p>
+      <figure>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREty8GCy59055DI7qJqZ-eskD2PpJBQNUCqKAVyBbDfA&s=10">
+    <figcaption>Figura 2: Imagen remota</figcaption>
+    </figure>
+     </main>
+    <!-- etiqueta de estilos css -->
+   <!-- apuntamos a un selector -->
+     
+    
+
+<!-- pie de pagina -->
+     <footer>
+        </footer>
+            
+        
+
+    
+</body>
+
+</html>
