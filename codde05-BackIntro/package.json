@@ -1,0 +1,28 @@
+{
+  "name": "backintro",
+  "version": "2.0.0",
+  "description": "Es el primer proyecto de back en la clase",
+  "keywords": [
+    "Backend",
+    "Node"
+  ],
+  "homepage": "https://github.com/esoracco/coddeandofullstack#readme",
+  "bugs": {
+    "url": "https://github.com/esoracco/coddeandofullstack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoracco/coddeandofullstack.git"
+  },
+  "license": "MIT",
+  "author": "Enzo",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mercadopago": "^3.6.1",
+    "mongodb": "^7.6.0"
+  }
+}
