@@ -1,0 +1,36 @@
+1. Para conocer la versión de Node instalada:
+
+        node --version
+
+        node -v
+
+2. Para iniciar un proyecto de Node, necesitamos tener instalado NODE e iniciar el proyecto con el comando:
+
+        npm init
+
+        npm init --yes
+
+        npm init -y
+
+3. npm: Administrador de Paquetes o Módulos de Node
+
+4. Creamos el archivo principal de la aplicación para el inicio del proyecto, tenemos que colocar el mismo nombre que está en el archivo de configuración, en este caso:
+
+        server.js
+
+
+5. Creamos una variable con const para utlililzar el módulo nativo o el modulo instaldo de Node.
+
+        const os = require(node:os)
+
+        const fs = require(node:fs)
+
+6. Instalamos nodemon para mantener la terminal viva
+
+        npm i nodemon
+
+        npm i -D nodemon         // modo desarrollo: no lo instala el servidor
+
+7. Configuramos la ejecución de nodemon en el package.json
+
+        npm run dev: "nodemon index.js"

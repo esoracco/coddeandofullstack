@@ -1,0 +1,14 @@
+
+####
+Configuración de Copilot de GitHub
+####
+
+1. Instalamos el plugin Copilot
+
+2. Generar un perfil en GitHub 
+
+3. Instalar GitHub Pull Requests en las extensiones
+
+4. Vincular mi editor de código con mi cuenta de GitHub
+
+5. Controlar en Settings de GitHub nuestro uso de Copilot

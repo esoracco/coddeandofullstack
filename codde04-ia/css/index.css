@@ -1,0 +1,75 @@
+
+
+/* Antes */
+/* li{
+  float: left; /* flota el elemento a la izquierda */
+  /*margin-right: 20px; 
+/*} */
+
+ul{
+  display: flex; /* convierte el contenedor en un contenedor flexible */
+  flex-direction: column; /* los elementos hijos se colocan en una columna */
+  flex-direction: row; /* los elementos hijos se colocan en una fila */
+  justify-content: space-between; /* distribuye el espacio entre los elementos hijos */
+  justify-content: space-around; /* distribuye el espacio alrededor de los elementos hijos */
+}
+
+.flex-container{
+  display: flex; /* convierte el contenedor en un contenedor flexible */
+  flex-wrap: wrap; /* permite que los elementos hijos se envuelvan en varias líneas */
+  justify-content: space-between; /* distribuye el espacio entre los elementos hijos */
+  align-content: space-between; /* distribuye el espacio entre las líneas de elementos hijos */
+}
+
+li{
+  list-style: none; /* elimina los puntos de la lista */
+  margin-right: 20px; /* agrega un margen a la derecha de cada elemento de la lista */
+}
+
+li a{
+  text-decoration: none; /* elimina el subrayado de los enlaces */
+  color: black; /* cambia el color del texto de los enlaces */
+  font-weight: bold; /* cambia el grosor del texto de los enlaces */
+  border: 2px solid black; /* agrega un borde negro a los enlaces */
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 35px;
+}
+
+/* Márgenes y Padding de elementos independientes: BoxModel */
+.foto{
+  border: 5px solid black; /* agrega un borde negro en lineas */
+  padding-top: 20px;/* relleno superior */
+  padding-right: 25px; /* relleno derecho */
+  padding-bottom: 30px; /* relleno inferior */
+  padding-left: 35px; /* relleno izquierdo */
+
+  /* Margin: es el espacio exterior del elemento */
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 35px;
+
+  /* bordes: diferentes tipos de bordes */
+  border-top: 5px solid rgb(207, 12, 12);
+  border-right: 5px dotted rgb(12, 25, 207);
+  border-bottom: 5px dashed rgb(12, 207, 12);
+  border-left: 10px double rgb(10, 10, 10);
+
+  /* Atajos de propiedades */
+  padding: 20px 25px 30px 35px; /* top right bottom left */
+  padding: 25px; /* todos los lados */
+  padding: 35px 30px; /* top bottom - left right */
+
+  margin: 20px 10px 25px 35px; /* top right bottom left */
+  margin: 30px; /* todos los lados */
+  margin: 20px 35px; /* top bottom - left right */
+
+  /* Si queremos imágenes superpuestas: valores negativos */
+  /* margin-bottom: -95px; */
+  /* margin-right: -150px; */
+}
+
+.flex-item{
+  background-color: rgb(200, 240, 240);
+}

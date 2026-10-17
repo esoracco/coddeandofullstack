@@ -1,0 +1,19 @@
+1. Instalamos la librería dotenv
+
+  npm i dotenv
+
+2. Importamos la librería para usarla en la aplicación
+
+  const dotenv = require("dotenv")
+
+3. Ejecutamos la configuración de dotenv
+
+  dotenv.config()
+
+4. Creamos un archivo .env y cargamos las variables privadas
+
+  GOOGLE_EMAIL=12345678
+
+5. Llamamos a la variable donde lo necesitemos
+
+  const google_email = process.env.GOOGLE_EMAIL
