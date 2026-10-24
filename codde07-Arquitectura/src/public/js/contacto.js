@@ -25,7 +25,7 @@ let contacto = {
 };
 
 //3 envio los datos la backend con fetch
-fetch("http://localhost:8080/contacto", {
+fetch("/contacto", {
     method: "POST",
     headers: {
         "content-type": "application/json"
